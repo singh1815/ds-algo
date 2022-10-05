@@ -1,13 +1,10 @@
 #include <bits/stdc++.h>
 using namespace std;
-
-void hello_world_func()
+class HelloWorld
 {
-    cout << "Hello World !\n";
-}
-
-int main()
-{
-    hello_world_func();
-    return 0;
-}
+    public:
+        void PrintHelloWorld()
+        {
+            std::cout << "Hello World!\n";
+        }
+};
